@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my first website by programming hero</title>
+    <link rel="shortcut icon" href="img/shofik.jpg" type="image/x-icon">
+        <style>
+        .header {
+            color:blue;
+            background-color:rgba(61, 192, 105, 0.253);
+            height:130px;
+            width:100%;
+            text-align:center;
+            margin-bottom: 10px;
+            padding: 5px;
+            
+        }
+        body{
+            background-color:lightblue;
+            
+
+        }
+        .book-list{
+            background-color:aqua;
+            height:190px;
+            width: vw;
+            border:8px solid cornsilk;
+            margin-top:20px;
+           margin-right: 20px;
+            margin-bottom: 20px;
+            margin-left:20px;
+            padding: 5px 10px 15px 10px;
+        }
+        .cricket-team{
+            background-color:aquamarine;
+            height:165px;
+            width: vw;
+            border:8px solid azure;
+            margin: 20px;
+            padding: 10px 30px 30px 50px;
+        }
+        div li{
+            color:rgb(70, 43, 33);
+        }
+        .writer{
+            color:orange;
+        }
+        .rigistration-form{
+            background-color:aquamarine;
+        }
+        #myself{
+            text-align:left ;
+           letter-spacing:2px;
+           font-weight:100;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to you MY Website</h1>
+        <h1>This is my first website by programming hero.</h1>
+    </div>
+   
+    <img src="img/shofik.jpg" alt="this is shofik photo" height="400px" width="200px">
+    <h4>About Me:</h4>
+   
+    <p id="myself"> This is <b>Shofik</b>.I live in Harinabari under the Palashbari Upozilla in the district of Gaibandha in Bangladesh.I studey in Gaibandha national university  Bachelor degree of science under the National University.My major subject is Chemistry. <i> My passion is to be a web developer </i>.Now I continue the special course of programming hero.It gives me a lot of energy,motivation.</p>
+   
+    <h4>More information </h4>
+        <a href="https://www.facebook.com/profile.php?id=100013695768823">Visit my facebook account.</a>
+    
+    <div class="book-list">
+        <h4>My favorite book list(by unorder list)</h4>
+        <ul >
+            <li>Rijik  <small class="writer"> (Writer: Abdullah bin abdur razzak)</small> </li>
+            <li>k boro lavoban</li>
+            <li>Rivive your heart</li>
+            <li>paradoxikal Sajid 1</li>
+            <li>paradoxikal Sajid 1</li>
+            <li>Bela furabar age</li>
+            <li>Protaborton</li>
+        </ul>
+    </div>
+    
+ <div class="cricket-team">
+    <h3>MY favorite cricket Team in all format </h3>
+    <ol>
+        <li>England</li>
+        <li>Pakisthan</li>
+        <li>Newziland</li>
+        <li>Australia</li>
+        <li>South Afrika</li>
+        <li>Bangladesh</li>
+    </ol>
+ </div>
+  
+    <hr>
+    <div class="rigistration-form">
+        <h5>If you want to be our group member, please fill in the following form</h5>
+        <h2>Information form:</h2>
+        <form action="">
+            <label for="fname">First Name:</label>
+            <input type="text" placeholder="Enter your first Name" required> <br> <br>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" placeholder="Enter your last Name" required> <br> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your valid email" required> <br> <br>
+
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter strong password" required> <br> <br>
+
+            <label for="contactn">phone number:</label>
+            <input type="number" placeholder="Enter phone number" required> <br> <br>
+            <p>select your gender</p>
+            <input type="radio" value="male" name ="age " checked="checked" >
+            <label for="">Male</label><br>
+            <input type="radio" value="female"  name ="age " >
+            <label for="">Female</label><br>
+            <input type="radio" value="others"  name ="age "  >
+            <label for="">Others</label><br>
+
+            <h5>Which Vehicles do you have?</h5>
+            <input type="checkbox" value="bicycle" name="Vehicles"  checked="checked">
+            <label for="">I have a bicycle.</label><br>
+            <input type="checkbox"  value="bike"  name="Vehicles">
+            <label for="">I have a bike.</label><br>
+            <input type="checkbox"  value="car"  name="Vehicles">
+            <label for="">I have a car.</label><br>
+
+            <label for="country"> Choose your country</label>
+            <select name="country" id="country">
+                    <option value="bangladesh">Bangladesh</option>
+                    <option value="bangladesh">India</option>
+                    <option value="bangladesh">Pakistan</option>
+                    <option value="bangladesh">Nepal</option>
+                    <option value="bangladesh">England</option>
+                    <option value="bangladesh">Malaysia</option>
+                    <option value="bangladesh">Japan</option>
+            </select><br><br>
+
+            <label for="file">Upload file:</label>
+            <input type="file" required> <br> <br>
+            <h4>please write something about yourself below this comment box.</h4>
+            <label for="yself">  Yourself:</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+            <button>Reset</button>
+            <button>Submit</button>
+
+        </form>
+    </div>
+    <hr>
+
+</body>
+</html>
