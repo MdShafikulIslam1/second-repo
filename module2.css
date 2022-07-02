@@ -1,0 +1,49 @@
+.header {
+    color:blue;
+    background-color:rgba(61, 192, 105, 0.253);
+    height:130px;
+    width:100%;
+    text-align:center;
+    margin-bottom: 10px;
+    padding: 5px;
+    
+}
+body{
+    background-color:lightblue;
+    
+
+}
+.book-list{
+    background-color:aqua;
+    height:190px;
+    width: vw;
+    border:8px solid cornsilk;
+    margin-top:20px;
+   margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left:20px;
+    padding: 5px 10px 15px 10px;
+}
+.cricket-team{
+    background-color:aquamarine;
+    height:165px;
+    width: vw;
+    border:8px solid azure;
+    margin: 20px;
+    padding: 10px 30px 30px 50px;
+}
+div li{
+    color:rgb(70, 43, 33);
+}
+.writer{
+    color:orange;
+}
+.rigistration-form{
+    background-color:aquamarine;
+}
+#myself{
+    text-align:left ;
+   letter-spacing:2px;
+   font-weight:100;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
